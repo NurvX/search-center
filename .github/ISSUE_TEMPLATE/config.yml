@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support page
+    url: https://nurvx.github.io/search-center/support/
+    about: Setup help and answers to common questions.
+  - name: Privacy Policy
+    url: https://nurvx.github.io/search-center/privacy/
+    about: What Search Center does (and doesn't do) with your data.

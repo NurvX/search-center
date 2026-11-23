@@ -1,0 +1,36 @@
+name: Bug
+description: Something doesn't work as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: ios
+    attributes:
+      label: iOS or iPadOS version
+      placeholder: e.g. iOS 26.1
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options: [iPhone, iPad]
+    validations:
+      required: true
+  - type: input
+    id: site
+    attributes:
+      label: Website where it happened
+      description: The page address, if it happens on a particular site.
+      placeholder: https://…
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot or screen recording
+      description: Optional. Drag a file here.
